@@ -1,0 +1,13 @@
+{
+  "name": "Kickstarter Progress Bar",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.kickstarter.com/projects/*/*/stats.json?v=1"],
+      "css": ["progress-bar.css"],
+      "js": ["progress-bar.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

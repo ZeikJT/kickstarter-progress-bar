@@ -1,0 +1,25 @@
+body > pre {
+    display: none;
+}
+
+.progress-container {
+    width: 50%;
+    margin: 50px auto;
+}
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px;
+}
+.progress-bar-inner {
+    background-color: #4caf50;
+    height: 20px;
+    border-radius: 20px;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+.progress-label {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
